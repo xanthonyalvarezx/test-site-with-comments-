@@ -18,3 +18,9 @@ body{
 
 
 }
+#input1{
+    width: 600px;
+    height: 25px;
+    margin: 10px;
+    border: 1px solid blue;
+}

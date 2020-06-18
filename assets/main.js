@@ -45,23 +45,38 @@ body.append(images)
 images.append(image1, image2, image3, image4)
 // comment buttons
 const comment = document.createElement('div')
+comment.id = 'commentDiv'
 const submit =  document.createElement('button')
 submit.className = 'button'
 submit.append('submit')
-comment.append(submit)
 //comment input
 const input = document.createElement('input')
 input.type= 'text'
 input.placeholder = 'comments or questions here...'
 input.id = 'input1'
 input.className = 'input'
-body.append(comment,input)
+comment.append(submit, input)
+body.append(comment)
 //
 submit.addEventListener('click', function(){
     const textbox =  document.createElement('div')
     textbox.innerText = input.value
-    body.append(textbox)
+    comment.append(textbox)
+    let reply = document.createElement('button')
+    reply.append('Reply')
+    let replyInput = document.createElement('input')
+    replyInput.type = 'text'
+    replyInput.placeholder = 'reply ...'
+    replyInput.id = 'replyInput'
+    replyInput.className = 'input'
+    textbox.append(reply, replyInput)
+
     
+    reply.addEventListener('click', function(){
+        let replyDiv = document.createElement('div')
+        replyDiv.innerText = (replyInput.value) 
+        textbox.append(replyDiv)
+    })
 })
 
 // links
