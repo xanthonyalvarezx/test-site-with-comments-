@@ -195,7 +195,7 @@ p {
 .commentSpace {
     position: relative;
     top: 75px;
-    border: 1px solid green;
+    
 }
 
 .commentDiv {
@@ -205,7 +205,7 @@ p {
 .replyDiv {
     position: relative;
     top: 25px;
-    border: 1px solid orange;
+   
 
 
 }
