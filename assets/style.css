@@ -213,12 +213,12 @@ p {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
-  }
+  
   #titleDiv {
     position: absolute;
     margin: 0 auto;
-    width: 600px;
-    left: -330px;
+    width: 650px;
+    left: -320px;
     top: 100px;
 
 }
