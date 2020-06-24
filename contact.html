@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/contact.css">
+</head>
+
+<div class="page-wrapper">
+<body>
+    <header>
+        <div id="nav-title-wrapper">
+            <h1 class="title" >FancyCatUpcycling</h1>
+            <nav class="nav">
+                <ul class="navList"> 
+                    <li class="listItem"><a href="./index.html">Home</a></li>
+                    <li class="listItem"><a href="./product.html">product</a></li>
+                    <li class="listItem"><a href="./contact.html">contact</a></li>
+                    <li class="listItem"><a href="https://www.facebook.com/FancyCatUpcycling" target="_blank"><img class="social" src="./assets/images/facebook.png" alt="facebook logo"></a></li>
+                    <li class="listItem"><a href="https://www.instagram.com/fancy_cat_upcycling/" target="_blank"><img class="social" src="./assets/images/instagram.png" alt="instagram logo"></a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+        <main>
+        
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/FancyCatUpcycling@gmail.com" method="post">
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+       
+        <p id="statementPara"> We want to make you feel right at home. If you have any questions, please reach out to us. We welcome all questions and comments.</p>
+        
+    </main>
+</body>
+</div>
+
+</html>
