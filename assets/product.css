@@ -11,6 +11,12 @@ body{
     margin-right: 850px;
     font-size: 56px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 form{
     background-color: rgba(125,200,220, .4);
@@ -44,9 +50,11 @@ form{
 .listItem{
     margin: 15px;
     text-transform: uppercase;
+    color: grey;
 }
 .social{
     width: 30px;
+    height:30px;
 }
 #description{
     font-size: 26px;
@@ -56,4 +64,16 @@ form{
 #nav-title-wrapper{
     display: flex;
     
+}
+.productImg{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    margin: 25px;
+    
+    
+   
+    
+
 }

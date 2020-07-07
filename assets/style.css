@@ -47,13 +47,25 @@ form{
 }
 .social{
     width: 30px;
+    
 }
 #description{
-    font-size: 26px;
+    position: absolute;
+    font-size: 36px;
+    width: 300px;
+    left: 800px;
+    margin-top: 150px;
 
 }
 
 #nav-title-wrapper{
     display: flex;
     border: 1px solid yellow;
+}
+
+#storePhoto{
+    margin: 15px;
+    width: 500px;
+    height: 700px;
+
 }
